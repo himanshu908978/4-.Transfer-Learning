@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Project4</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="Everything">
+        <div class="everythingwrapper">
+            <p class="projectname">Project 4 :- Transfer Learning -PyTorch</p>
+            <p class="aboutproject">About this project</p>
+            <div class="everyprojectdetail">
+                <p class="projectdetail">This is my forth project in the domain of AI/ML/DL whose AI model is made by
+                    using the Pytorch and concepts of CNN(Convulational Neural Network) and trained on Dog vs Cat classification
+                    dataset on Kaggle.</p>
+                <!-- <p class="projectdetail1">Then i discovered Pytorch,Tensorflow and Keras,and I choosed Pytorch for my
+                    learning because I found out pytorch more flexible, easy to learn, on demand and best for my
+                    learning.</p> -->
+                <p class="projectdetail1">This Image Classification project detects dog and cat in your given
+                    photo but you will get choice to select one of the pretrained model in the three models that we fine-tuned in this project.</p>
+                <!-- <p class="projectdetail1">Transformations on input image :- </p>
+                <div class="transformation">
+                    <p class="projectdetail1 transforms">transforms.Grayscale()</p>
+                    <p class="projectdetail1 transforms">transforms.Resize((28,28))</p>
+                    <p class="projectdetail1 transforms">transforms.ToTensor()</p>
+                    <p class="projectdetail1 transforms">transforms.Normalize(mean = (0.5,),std = (0.5,))</p>
+                </div> -->
+
+                <p class="projectdetail1">This trained AI model detect the labels(Dog or Cat) in image and gives you a
+                    Number(label) that it could find in your given image and also give a Confidence score that
+                    represents that how much confident model really is to give you that output. </p>
+
+                <p class="labels">Labels :- </p>
+                <div class="list">
+                    <ul>
+                        <li>cat</li>
+                        <li>dog</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="projectdetail2">So if you upload a image that belongs to any of these label's category then you will get a predicted class from model in this scenario dog and cat label and confidence score and confidence score can vary on your choice of model.</p>
+
+            <p class="whatiwanted">Conclusion</p>
+            <div class="whatiwanteddiv">
+                <p class="whatiwanted1">I trained this model on google colab notebook's free GPU T4(it comes with a specfic duration of usage) for 5 epochs/model so total 15 epochs and then</p>
+                <p class="labels">VGG :- </p>
+                <div class="list">
+                    <ul>
+                        <li>Loss :- 0.37</li>
+                        <li>Accuracy on testing dataset :- 0.97</li>
+                    </ul>
+                </div>
+
+                <p class="labels">Resnet :- </p>
+                <div class="list">
+                    <ul>
+                        <li>Loss :- 0.45</li>
+                        <li>Accuracy on testing dataset :- 0.985</li>
+                    </ul>
+                </div>
+
+                <p class="labels">EfficientNet :- </p>
+                <div class="list">
+                    <ul>
+                        <li>Loss :- 0.7</li>
+                        <li>Accuracy on testing dataset :- 0.96</li>
+                    </ul>
+                </div>
+                <p class="whatiwanted1 catch">This accuracy is preety good and also the cause of this accuracy is obviously our pretrained model models like VGG, Resnet and EfficientNet are already trained on a very large amount of parameters and data, so model have already see a variety of data.</p>
+                <!-- <p class="whatiwanted1 catch">Catch : </p>
+                <div class="whatiwantedinner">
+                    <p class="whatiwanted1">When i tested this model it was giving 99% accuracy that is great means
+                        it was correctly detecting 99 images number out of 100 but only images that </p>
+                    <p class="whatiwanted1">look like the images
+                        that are present in Fashion-MNIST training dataset images, but when i gave images that are not
+                        like
+                        that then it was not performing </p>
+                    <p class="what1wanted1">as i wanted then i was trying to make my own custom dataset for
+                        training but due to lack of resource i was not able to do that.</p>
+                </div> -->
+                <p class="whatiwanted1">So final conclusion is that this project's model or this project is a upgraded version of project3 Dogs vs Cats Classification, and the benenfit of pretrained models is that that models have already seen a huge amount of data and the variation so due to that we can fine-tune or cutomize the model according to our need.</p>
+                <p class="whatiwanted1">Fun Fact :- This time the model would be more confident to tell you a animal compare to the previous model.</p>
+                <!-- <p class="whatiwanted1">Why don't you try this.</p> -->
+                <p class="whatiwanted1 thanks">Thanks</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="about.js"></script>
+
+</body>
+
+</html>
