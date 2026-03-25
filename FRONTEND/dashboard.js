@@ -46,12 +46,28 @@ model.addEventListener("click", () => {
     showmodels.style.display = "block";
 })
 
-results.addEventListener("click", () => {
-    window.location.href = "results.html";
+results.addEventListener("click",()=>{
+    everythingcontainer1.style.display = "block";
 })
 
-firstb1.addEventListener("click", () => {
-    window.location.href = `about.html`;
+firstb1.addEventListener("click",()=>{
+    Everything.style.display = "flex";
+})
+
+
+const projectname = document.querySelector(".projectname");
+const Everything = document.querySelector(".Everything");
+
+projectname.addEventListener("click",()=>{
+    Everything.style.display = "none";
+});
+
+
+const projectname1 = document.querySelector(".projectname1");
+const everythingcontainer1 = document.querySelector(".everythingcontainer1");
+
+projectname1.addEventListener("click",()=>{
+    everythingcontainer1.style.display = "none";
 })
 
 
